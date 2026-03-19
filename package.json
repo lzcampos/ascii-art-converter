@@ -1,6 +1,6 @@
 {
-  "name": "ascii-art-converter",
-  "version": "1.0.0",
+  "name": "@lz_campos/ascii-art-converter",
+  "version": "1.0.2",
   "description": "Convert images to ASCII art and render ASCII back into smoothed grayscale images.",
   "license": "ISC",
   "author": "lz_campos",
