@@ -10,7 +10,7 @@
     ".": "./src/index.js"
   },
   "bin": {
-    "ascii-art-converter": "./bin/ascii-art-converter.js"
+    "ascii-art-converter": "bin/ascii-art-converter.js"
   },
   "files": [
     "bin",
