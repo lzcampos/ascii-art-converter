@@ -1,0 +1,41 @@
+{
+  "name": "ascii-art-converter",
+  "version": "1.0.0",
+  "description": "Convert images to ASCII art and render ASCII back into smoothed grayscale images.",
+  "license": "ISC",
+  "author": "lz_campos",
+  "type": "commonjs",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "bin": {
+    "ascii-art-converter": "./bin/ascii-art-converter.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "index.js"
+  ],
+  "scripts": {
+    "start": "node ./bin/ascii-art-converter.js",
+    "img2txt": "node ./bin/ascii-art-converter.js img2txt",
+    "txt2img": "node ./bin/ascii-art-converter.js txt2img",
+    "roundtrip": "node ./bin/ascii-art-converter.js roundtrip",
+    "test": "node -e \"require('./src')\""
+  },
+  "keywords": [
+    "ascii",
+    "ascii-art",
+    "image",
+    "cli",
+    "canvas"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "canvas": "^3.2.1"
+  }
+}
